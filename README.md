@@ -1,6 +1,6 @@
 # clinch
 
-`clinch` is a library for building CLI tools that support one or more commands. Support for multiple commands revolves around the use of a CLI flag called `--command` or `-c` for short. Using this you supply the same of the command to run. It is built around argtable3 as the flag handling library.
+`clinch` is a library for building CLI tools that support one or more commands. Support for multiple commands revolves around the use of a CLI flag called `--command` or `-c` for short. Using this you supply the same of the command to run. It is built around argtable3 as the flag handling library, and include a few pre-defined default argtable values (version, file, output) to use as building blocks and to showcase example usage.
 
 
 Example output:
