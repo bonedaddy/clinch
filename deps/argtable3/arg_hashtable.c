@@ -31,7 +31,7 @@
  ******************************************************************************/
 
 #ifndef ARG_AMALGAMATION
-#include "thirdparty/argtable3/argtable3_private.h"
+#include "./argtable3_private.h"
 #endif
 
 #include <math.h>

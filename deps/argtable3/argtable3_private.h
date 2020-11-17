@@ -1,5 +1,5 @@
 /*******************************************************************************
- * "thirdparty/argtable3/argtable3_private: Declares private types, constants, and
+ * "./argtable3_private: Declares private types, constants, and
  *interfaces
  *
  * This file is part of the argtable3 library.

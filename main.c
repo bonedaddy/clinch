@@ -1,5 +1,5 @@
 #include "command_line.h"
-#include "deps/argtable3/argtable3.h"
+#include "deps/argtable3//argtable3.h"
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -19,7 +19,7 @@ void some_str_callback(int argc, char *argv[]) {
         printf("some-str flag empty\n");
         return;
     }
-    printf("some-str flag value: %s\n", some_str->sval);
+    printf("some-str flag value: %s\n", *some_str->sval);
 }
 
 command_handler *new_some_str_command() {

@@ -1,6 +1,6 @@
 {
   "name": "argtable3",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "repo": "bonedaddy/argtable3",
   "description": "clib installable package for argtable3",
   "src": [
@@ -23,6 +23,6 @@
    "src/argtable3_private.h",
    "src/getopt.h",
    "src/version.rc.in",
-   "CMakeLists.txt"
+   "src/CMakeLists.txt"
   ]
 }

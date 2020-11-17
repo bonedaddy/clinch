@@ -1,11 +1,14 @@
-file(GLOB_RECURSE ARGTABLE_SOURCES
-    ./include/thirdparty/argtable3/*.h
-    ./thirdparty/argtable3/*.c
+# configured for use with clib
+
+file(GLOB_RECURSE ARGTABLE3_SOURCES
+    ./deps/argtable3/*.h
+    ./deps/argtable3/*.c
 )
 
-add_library(libargtable
+add_library(libargtable3
     SHARED
-        ${ARGTABLE_SOURCES}
+        ${ARGTABLE3_SOURCES}
 )
 
-target_compile_options(libargtable PRIVATE ${flags})
+target_compile_options(libargtable3 PRIVATE ${flags})
+target_link_libraries(libargtable3 m)

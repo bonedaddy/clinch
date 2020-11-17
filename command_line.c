@@ -11,7 +11,7 @@
  */
 
 #include "command_line.h"
-#include "deps/argtable3/argtable3.h"
+#include "deps/argtable3//argtable3.h"
 #include "deps/ulog/colors.h"
 #include "deps/ulog/logger.h"
 #include <stdbool.h>

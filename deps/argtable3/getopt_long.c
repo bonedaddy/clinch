@@ -51,7 +51,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "thirdparty/argtable3/argtable3.h"
+#include "./argtable3.h"
 
 #ifndef ARG_AMALGAMATION
 #include "getopt.h"

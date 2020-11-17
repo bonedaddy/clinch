@@ -30,11 +30,11 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ******************************************************************************/
 
-#include "thirdparty/argtable3/argtable3.h"
+#include "./argtable3.h"
 
 #ifndef ARG_AMALGAMATION
 #include "getopt.h"
-#include "thirdparty/argtable3/argtable3_private.h"
+#include "./argtable3_private.h"
 #endif
 
 #ifdef _WIN32
